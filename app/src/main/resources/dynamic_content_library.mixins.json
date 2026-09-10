@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "dynamic.content.library.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [
+    "ItemDatabaseMixin",
+    "MarketDatabaseMixin"
+  ]
+}

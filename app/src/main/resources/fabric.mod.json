@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "dynamic_content_library",
+  "version": "1.0.0",
+  "name": "Dynamic Content Library",
+  "description": "Merges item and market content contributed by other mods into Sector Space's item and market databases after they are loaded into memory, without modifying the game's own database files.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dynamic.content.library.DynamicContentLibraryMod"
+    ]
+  },
+  "mixins": [
+    "dynamic_content_library.mixins.json"
+  ],
+  "depends": {
+    "sectorspacebridge": "*",
+    "java": ">=25"
+  }
+}
